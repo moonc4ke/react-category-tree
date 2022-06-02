@@ -49,9 +49,6 @@ export default RecursiveTree;
 
 const StyledLabel = styled(Box)({
   height: '24px',
-  '&:hover': {
-    cursor: 'pointer',
-  },
 });
 
 const StyledTreeItem = styled(Box)({
