@@ -26,7 +26,7 @@ const TreeItem = ({ label, children }) => {
   );
 };
 
-const RecursiveTree = ({ listMeta, onSelectCallback }) => {
+const RecursiveTree = ({ listMeta }) => {
   const createTree = (branch) =>
     branch.branches && (
       <TreeItem id={branch.id} key={branch.id} label={branch.label}>
